@@ -1,0 +1,79 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+.navbar{
+  background-color: blue;
+}
+
+.font{
+  font-family: 'Monoton', cursive;
+}
+
+.fon{
+  line-height: 2em;
+  text-align: justify;
+  font-size: 16px;
+}
+
+
+.imagecircle {
+  border-radius: 50%;
+
+}
+
+
+.pic{
+  width: 200px;
+  height: px;
+  border-radius: 50%;
+
+}
+.picbig{
+  position: absolute;
+  width: 0px;
+  transition:width 0.3s linear 0s;
+  z-index: 10px;
+  border-radius: 50%;
+
+}
+.pic:hover + .picbig{
+  width: 400px;
+  height: 400px;
+}
+
+
+.modal{
+background-image: url('logo2.jpg');
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+.btnn{
+	width: 150px;
+
+}
+
+.btnr{
+	width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.font{
+	font-family: 'Fjalla One', sans-serif;
+font-family: 'Questrial', sans-serif;
+}
+
+.container2{
+	color: black;
+	background-color: red;
+}
